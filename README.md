@@ -16,9 +16,14 @@ sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
 echo (0 or 1 or 2) > /dev/myled0
 ~~~
+### 必要なもの
+- ジャンパー線 : 4本
+- LED : 二個
+- 200Ω程度の抵抗
+
 下の回路図のように組んでください
-GPIO 18 と　GPIO 25 を使ってください
-LEDのカソードのほうをGNDにつけてください
+
+GPIO 18 と　GPIO 25 を使ってください,LEDのカソードのほうをGNDにつけてください
 ![IMG_1250 (2)](https://user-images.githubusercontent.com/72371137/101174205-e88cef00-3686-11eb-8e5b-4b6a4f3e5973.JPG)
 
 ## 改造内容
