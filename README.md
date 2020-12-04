@@ -19,8 +19,7 @@ echo (0 or 1 or 2) > /dev/myled0
 下の回路図のように組んでください
 GPIO 18 と　GPIO 25 を使ってください
 LEDのカソードのほうをGNDにつけてください
-![IMG_1250](https://user-images.githubusercontent.com/72371137/101170003-2129ca00-3681-11eb-822f-518203f6c347.JPG)
-
+![IMG_1250 (2)](https://user-images.githubusercontent.com/72371137/101174205-e88cef00-3686-11eb-8e5b-4b6a4f3e5973.JPG)
 
 ## 改造内容
 - echo 0 のとき　両方のLEDの消灯
